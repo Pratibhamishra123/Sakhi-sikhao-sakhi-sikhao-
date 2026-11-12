@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="hi" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#B5482A">
+  <meta name="description" content="सखी सीखो, सखी सिखाओ - झारखंड की महिलाओं के लिए कौशल सीखने और उद्यमिता का साझा मंच (अवधारणा / पायलट चरण)">
+  <title>सखी सीखो, सखी सिखाओ | सीखो • सिखाओ • साथ बढ़ो (झारखंड पायलट)</title>
+
+  <!-- Google Fonts: Baloo 2, Mukta, Kalam for authentic Devanagari folk aesthetic -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Kalam:wght@400;700&family=Mukta:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='30' fill='%23F6ECD9' stroke='%23B5482A' stroke-width='4'/><circle cx='32' cy='32' r='24' fill='none' stroke='%232F5D3A' stroke-width='2' stroke-dasharray='3,3'/><path d='M22 36c0-6 4-10 10-10s10 4 10 10-4 10-10 10S22 42 22 36z' fill='%23B5482A'/><circle cx='27' cy='22' r='4' fill='%23E3A82B'/><circle cx='37' cy='22' r='4' fill='%23E4762B'/><path d='M28 32c2-3 6-3 8 0' stroke='%23FFF8EB' stroke-width='2' stroke-linecap='round'/></svg>">
+</head>
+<body>
+  <!-- Background Noise & Folk Texture Layer -->
+  <div class="sohrai-texture-bg" aria-hidden="true"></div>
+
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link" data-i18n="skip_to_content">मुख्य सामग्री पर जाएं (Skip to main content)</a>
+
+  <!-- Global Concept / Pilot Notice Banner -->
+  <aside class="pilot-banner" role="complementary" aria-label="पायलट सूचना">
+    <div class="banner-inner container">
+      <div class="banner-left">
+        <span class="pilot-badge" data-i18n="banner_badge">अवधारणा व पायलट योजना</span>
+        <span class="women-only-tag" data-i18n="banner_women_only">🔒 सीख, अध्यापन, बिक्री व डिलीवरी: केवल महिलाओं हेतु | ग्राहक: देश भर से कोई भी</span>
+      </div>
+      <p class="banner-text" data-i18n="banner_text">
+        यह झारखंड की महिलाओं के साथ मिलकर सीखने और जांचने का एक शुरुआती प्रयास है।
+      </p>
+    </div>
+  </aside>
+
+  <!-- Sticky Header with Folk Border & Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner container">
+      <!-- Original Sohrai-Khovar Inspired Logo -->
+      <a href="#hero" class="brand-logo" aria-label="सखी सीखो सखी सिखाओ होमपेज">
+        <div class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 54 54" width="46" height="46" class="logo-svg">
+            <circle cx="27" cy="27" r="25" fill="#FFF8EB" stroke="#B5482A" stroke-width="2.5" />
+            <circle cx="27" cy="27" r="21" fill="none" stroke="#2F5D3A" stroke-width="1.5" stroke-dasharray="2,3" />
+            <!-- Two stylized women passing a Palash flower & thread -->
+            <path d="M15 36 C15 28, 20 25, 23 27 C25 28, 25 33, 22 37 Z" fill="#B5482A" />
+            <circle cx="19" cy="22" r="3.5" fill="#2A1F1A" />
+            <path d="M39 36 C39 28, 34 25, 31 27 C29 28, 29 33, 32 37 Z" fill="#2F5D3A" />
+            <circle cx="35" cy="22" r="3.5" fill="#2A1F1A" />
+            <!-- Hands meeting with Palash flower / loom thread -->
+            <path d="M22 31 C25 29, 29 29, 32 31" stroke="#E3A82B" stroke-width="2.5" stroke-linecap="round" fill="none" />
+            <!-- Palash flower petal at center -->
+            <path d="M27 24 C24 21, 25 18, 27 16 C29 18, 30 21, 27 24 Z" fill="#E4762B" />
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title" data-i18n="brand_title">सखी सीखो, सखी सिखाओ</span>
+          <span class="brand-sub" data-i18n="brand_tagline">सीखो • सिखाओ • साथ बढ़ो</span>
+        </div>
+      </a>
+
+      <!-- Navigation & Action Tools -->
+      <nav class="main-nav" id="main-nav" aria-label="मुख्य मेनू">
+        <ul class="nav-links">
+          <li><a href="#ways-to-join" class="nav-link" data-i18n="nav_ways">६ भूमिकाएं</a></li>
+          <li><a href="#section-teacher" class="nav-link" data-i18n="nav_teacher">शिक्षिका</a></li>
+          <li><a href="#section-student" class="nav-link" data-i18n="nav_student">विद्यार्थी</a></li>
+          <li><a href="#section-sangi-hub" class="nav-link" data-i18n="nav_hub">संगी हब</a></li>
+          <li><a href="#section-competitions" class="nav-link" data-i18n="nav_comp">प्रतियोगिता</a></li>
+          <li><a href="#section-seller" class="nav-link" data-i18n="nav_seller">विक्रेता</a></li>
+          <li><a href="#section-customer" class="nav-link" data-i18n="nav_customer">खरीदार</a></li>
+          <li><a href="#section-delivery" class="nav-link" data-i18n="nav_delivery">डिलीवरी साथी</a></li>
+          <li><a href="#faq" class="nav-link" data-i18n="nav_faq">सवाल-जवाब</a></li>
+        </ul>
+      </nav>
+
+      <!-- Language Selector, Multi-Role Switcher & CTA -->
+      <div class="header-actions">
+        <!-- Interactive Multi-Role Switcher Demo (Header Feature) -->
+        <div class="role-switcher-wrap" id="roleSwitcherWrap" title="एक दीदी कई भूमिकाएं निभा सकती हैं">
+          <div class="role-switcher-btn" id="roleSwitcherBtn" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false">
+            <span class="role-icon">👩‍🌾</span>
+            <span class="role-label" id="currentRoleLabel" data-i18n="my_roles_label">मेरी भूमिकाएँ</span>
+            <span class="role-arrow">▾</span>
+          </div>
+          <div class="role-dropdown-menu" id="roleDropdownMenu" role="menu">
+            <div class="role-drop-header" data-i18n="role_drop_title">एक खाता • कई भूमिकाएँ</div>
+            <label class="role-toggle-item">
+              <input type="checkbox" checked disabled>
+              <span data-i18n="role_student_opt">विद्यार्थी (Student)</span>
+            </label>
+            <label class="role-toggle-item">
+              <input type="checkbox" id="headerRoleTeacher">
+              <span data-i18n="role_teacher_opt">शिक्षिका (Teacher)</span>
+            </label>
+            <label class="role-toggle-item">
+              <input type="checkbox" id="headerRoleSeller">
+              <span data-i18n="role_seller_opt">विक्रेता (Seller)</span>
+            </label>
+            <label class="role-toggle-item">
+              <input type="checkbox" id="headerRoleDelivery">
+              <span data-i18n="role_delivery_opt">डिलीवरी साथी (Delivery)</span>
+            </label>
+            <label class="role-toggle-item">
+              <input type="checkbox" id="headerRoleHub">
+              <span data-i18n="role_hub_opt">संगी हब सदस्य (Hub)</span>
+            </label>
+            <div class="role-drop-note" data-i18n="role_drop_note">✓ आप एक साथ सीख भी सकती हैं, सिखा भी सकती हैं और बेच भी सकती हैं।</div>
+          </div>
+        </div>
+
+        <!-- Language Switcher -->
+        <div class="lang-switcher" role="group" aria-label="भाषा चुनें / Choose Language">
+          <button type="button" class="lang-btn active" id="btn-lang-hi" data-lang="hi" aria-pressed="true">
+            हिन्दी
+          </button>
+          <span class="lang-divider">/</span>
+          <button type="button" class="lang-btn" id="btn-lang-en" data-lang="en" aria-pressed="false">
+            English
+          </button>
+          <span class="khortha-badge" title="खोरठा भाषा समर्थन जल्द ही जोड़ा जाएगा" data-i18n="khortha_chip">खोरठा — जल्द</span>
+        </div>
+
+        <a href="#pilot-form" class="btn btn-primary btn-header-cta" data-i18n="header_cta">
+          <span class="btn-icon">🌾</span>
+          <span class="btn-text" data-i18n="header_cta_text">पायलट से जुड़ें</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-toggle" id="mobile-menu-btn" aria-expanded="false" aria-controls="main-nav" aria-label="मेनू खोलें">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+    <!-- Sohrai Comb Pattern Divider Strip -->
+    <div class="sohrai-border-strip" aria-hidden="true"></div>
+  </header>
+
+  <!-- Main Content Flow -->
+  <main id="main-content">
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="tag-pill">
+            <span class="pill-dot"></span>
+            <span data-i18n="hero_status_pill">झारखंड की महिलाओं के लिए • प्रस्तावित पायलट योजना</span>
+          </div>
+          
+          <h1 id="hero-title" class="hero-title">
+            <span class="hero-hl-hindi" data-i18n="hero_title_line1">सीखो, सिखाओ,</span><br>
+            <span class="hero-hl-accent" data-i18n="hero_title_line2">साथ बढ़ो</span>
+          </h1>
+
+          <p class="hero-subtitle" data-i18n="hero_subtitle">
+            घर की चारदीवारी से निकलकर अपने हुनर को पहचान दें। झारखंड की बहनों के लिए सुरक्षित, समर्पित मंच—जहां सीखना, सिखाना, बेचना और डिलीवरी सब महिलाएं ही संभालती हैं; और देश भर के कद्रदान हस्तनिर्मित उत्पाद खरीद सकते हैं।
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#section-student" class="btn btn-primary btn-large">
+              <span class="btn-icon">✨</span>
+              <span class="btn-text" data-i18n="hero_btn_learn">सीखना शुरू करें</span>
+            </a>
+            <a href="#section-teacher" class="btn btn-secondary btn-large">
+              <span class="btn-icon">👩‍🏫</span>
+              <span class="btn-text" data-i18n="hero_btn_teach">शिक्षिका बनें</span>
+            </a>
+          </div>
+
+          <!-- Safe Women-Only Shield Reassurance -->
+          <div class="pilot-reassurance safe-learning-shield">
+            <div class="reassurance-icon">🛡️</div>
+            <div class="reassurance-body">
+              <strong data-i18n="safe_shield_title">सुरक्षित व केवल महिलाओं के लिए सीख:</strong>
+              <span data-i18n="safe_shield_desc">निजी फोन नंबर कभी साझा नहीं होते। सभी सवाल-जवाब केवल मंच के सुरक्षित लाइव व चैट बॉक्स में होते हैं।</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Hand-drawn Sohrai Art & Courtyard Scene -->
+        <div class="hero-art-wrapper">
+          <div class="hero-illustration-card">
+            <!-- Hand-crafted Sohrai Motif SVG Scene -->
+            <svg viewBox="0 0 520 400" width="100%" height="auto" class="hero-svg" aria-label="झारखंड सोहराई कला शैली में चित्रित दीदियों का समूह">
+              <defs>
+                <linearGradient id="mudGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#FFF8EB" />
+                  <stop offset="100%" stop-color="#F4E6D0" />
+                </linearGradient>
+              </defs>
+
+              <!-- Mud courtyard background with rounded folk frame -->
+              <rect x="10" y="10" width="500" height="380" rx="24" fill="url(#mudGrad)" stroke="#B5482A" stroke-width="4" />
+              <rect x="22" y="22" width="476" height="356" rx="18" fill="none" stroke="#2F5D3A" stroke-width="1.8" stroke-dasharray="6,4" />
+
+              <!-- Tree of Life (Sal sacred tree with Sohrai branches) -->
+              <path d="M260 360 L260 130" stroke="#2A1F1A" stroke-width="8" stroke-linecap="round" />
+              <path d="M260 270 C220 250, 180 260, 150 240" stroke="#2A1F1A" stroke-width="4" fill="none" />
+              <path d="M260 230 C300 210, 340 220, 370 200" stroke="#2A1F1A" stroke-width="4" fill="none" />
+              <path d="M260 190 C210 170, 190 140, 160 120" stroke="#2A1F1A" stroke-width="4" fill="none" />
+              
+              <!-- Sal Leaves & Palash Flowers on Branches -->
+              <path d="M150 240 C140 220, 160 210, 180 230 Z" fill="#2F5D3A" />
+              <path d="M370 200 C390 185, 395 210, 375 225 Z" fill="#2F5D3A" />
+              <path d="M260 105 C245 85, 275 70, 260 55 C275 70, 290 85, 260 105 Z" fill="#E4762B" stroke="#B5482A" stroke-width="2" />
+              <circle cx="260" cy="110" r="5" fill="#E3A82B" />
+
+              <!-- Sohrai Deer Motif -->
+              <path d="M60 310 C65 290, 85 285, 105 300 L115 325 L105 355 L90 355 L95 325 L75 325 L65 355 L50 355 Z" fill="#B5482A" stroke="#2A1F1A" stroke-width="2" />
+              <circle cx="68" cy="280" r="8" fill="#B5482A" stroke="#2A1F1A" stroke-width="2" />
+              <path d="M65 275 C60 260, 52 258, 48 255 M63 268 C58 265, 52 268, 48 272" stroke="#2A1F1A" stroke-width="2" fill="none" />
+
+              <!-- Two Women Learners / Teachers sitting together in courtyard -->
+              <!-- Left Woman: Teacher demonstrating craft -->
+              <path d="M180 355 C180 300, 205 280, 225 300 C240 315, 240 355, 240 355 Z" fill="#B5482A" stroke="#2A1F1A" stroke-width="2.5" />
+              <path d="M195 300 C205 325, 220 335, 235 320" stroke="#FFF8EB" stroke-width="2.5" stroke-linecap="round" fill="none" />
+              <circle cx="210" cy="265" r="13" fill="#E3A82B" stroke="#2A1F1A" stroke-width="2" />
+              <circle cx="197" cy="263" r="6" fill="#2A1F1A" />
+              <path d="M225 310 L250 325" stroke="#2A1F1A" stroke-width="3" stroke-linecap="round" />
+              <rect x="248" y="320" width="12" height="6" rx="2" fill="#E3A82B" stroke="#2A1F1A" stroke-width="1.5" />
+
+              <!-- Right Woman: Learner with phone/learning kit -->
+              <path d="M280 355 C280 300, 305 280, 325 300 C340 315, 340 355, 340 355 Z" fill="#2F5D3A" stroke="#2A1F1A" stroke-width="2.5" />
+              <path d="M295 300 C305 325, 320 335, 335 320" stroke="#FFF8EB" stroke-width="2.5" stroke-linecap="round" fill="none" />
+              <circle cx="310" cy="265" r="13" fill="#E3A82B" stroke="#2A1F1A" stroke-width="2" />
+              <circle cx="323" cy="263" r="6" fill="#2A1F1A" />
+              <path d="M295 315 L272 325" stroke="#2A1F1A" stroke-width="3" stroke-linecap="round" />
+              <rect x="255" y="318" width="16" height="22" rx="3" fill="#FFF8EB" stroke="#2A1F1A" stroke-width="2" transform="rotate(-15 263 329)" />
+
+              <!-- Caption tag -->
+              <rect x="330" y="335" width="160" height="32" rx="16" fill="#2A1F1A" />
+              <text x="410" y="356" fill="#FFF8EB" font-family="'Mukta', sans-serif" font-size="12" font-weight="600" text-anchor="middle">संगी हब • सीखने की चौपाल</text>
+            </svg>
+          </div>
+          <div class="art-caption-note" data-i18n="hero_art_caption">
+            झारखंडी सोहराई एवं खोवर भित्ति-चित्रकला से प्रेरित मौलिक रेखांकन
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="motif-divider" aria-hidden="true">
+      <span class="motif-diamond"></span>
+      <span class="motif-flower">✿</span>
+      <span class="motif-diamond"></span>
+    </div>
+
+    <!-- 2. SIX WAYS TO PARTICIPATE (Main highlight cards linking to detailed sections) -->
+    <section class="section ways-section" id="ways-to-join" aria-labelledby="ways-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker" data-i18n="ways_kicker">भागीदारी के छह रास्ते</span>
+          <h2 id="ways-title" class="section-title" data-i18n="ways_title">आप किस रूप में जुड़ना चाहती हैं?</h2>
+          <p class="section-subtitle" data-i18n="ways_subtitle">
+            हर महिला की अपनी ताकत है। एक खाता होने पर भी आप एक से अधिक भूमिकाएं चुन सकती हैं। नीचे दिए किसी भी कार्ड पर क्लिक करके उसका पूरा विवरण देखें:
+          </p>
+        </div>
+
+        <div class="grid-3 ways-grid">
+          <!-- Card 1: Teacher -->
+          <article class="way-card way-teacher">
+            <div class="way-card-art">
+              <svg viewBox="0 0 200 110" width="100%" height="85" class="card-art-svg" aria-hidden="true">
+                <rect width="200" height="110" rx="12" fill="#FDF2E9" />
+                <path d="M40 90 C40 65, 55 55, 70 65 C80 75, 80 90, 80 90 Z" fill="#B5482A" stroke="#2A1F1A" stroke-width="2" />
+                <circle cx="60" cy="45" r="10" fill="#E3A82B" stroke="#2A1F1A" stroke-width="1.8" />
+                <rect x="95" y="25" width="80" height="50" rx="6" fill="#FFF8EB" stroke="#2A1F1A" stroke-width="2" />
+                <path d="M105 45 L120 35 L135 45 L150 35 L165 45" stroke="#B5482A" stroke-width="2" fill="none" />
+                <circle cx="135" cy="58" r="6" fill="#2F5D3A" />
+              </svg>
+            </div>
+            <div class="way-card-content">
+              <div class="way-badge-row">
+                <span class="way-pill pill-terracotta">भूमिका 01</span>
+                <span class="gender-pill">केवल महिलाएं</span>
+              </div>
+              <h3 class="way-name" data-i18n="way_1_title">शिक्षिका बनें (Teacher)</h3>
+              <p class="way-text" data-i18n="way_1_desc">
+                सिलाई, सोहराई, बुनाई या पाक कला की 5-चरणीय पारदर्शी जांच के बाद शिक्षिका बनें। प्रतिदिन 2 घंटे तक क्लास लें और संगी हब कार्यशाला में मार्गदर्शन दें।
+              </p>
+              <a href="#section-teacher" class="btn btn-primary btn-full">
+                <span data-i18n="way_1_btn">शिक्षिका का पूरा विवरण देखें</span> ↓
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2: Student -->
+          <article class="way-card way-student">
+            <div class="way-card-art">
+              <svg viewBox="0 0 200 110" width="100%" height="85" class="card-art-svg" aria-hidden="true">
+                <rect width="200" height="110" rx="12" fill="#EAF2EC" />
+                <path d="M110 90 C110 65, 125 55, 140 65 C150 75, 150 90, 150 90 Z" fill="#2F5D3A" stroke="#2A1F1A" stroke-width="2" />
+                <circle cx="130" cy="45" r="10" fill="#E3A82B" stroke="#2A1F1A" stroke-width="1.8" />
+                <rect x="50" y="35" width="45" height="35" rx="4" fill="#FFF8EB" stroke="#2A1F1A" stroke-width="2" />
+                <line x1="60" y1="47" x2="85" y2="47" stroke="#2F5D3A" stroke-width="2" />
+                <line x1="60" y1="55" x2="80" y2="55" stroke="#B5482A" stroke-width="2" />
+              </svg>
+            </div>
+            <div class="way-card-content">
+              <div class="way-badge-row">
+                <span class="way-pill pill-sal">भूमिका 02</span>
+                <span class="gender-pill">केवल बेटियां/महिलाएं</span>
+              </div>
+              <h3 class="way-name" data-i18n="way_2_title">विद्यार्थी बनें (Student)</h3>
+              <p class="way-text" data-i18n="way_2_desc">
+                मुफ्त डेमो क्लास देखें, 8-चरणीय यात्रा से ऑनलाइन या केवल ऑफलाइन संगी हब कार्यशाला में अभ्यास करें। कम कीमत वाली लर्निंग किट व पूर्णता पत्र पाएं।
+              </p>
+              <a href="#section-student" class="btn btn-secondary btn-full">
+                <span data-i18n="way_2_btn">विद्यार्थी का पूरा विवरण देखें</span> ↓
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3: Seller -->
+          <article class="way-card way-seller">
+            <div class="way-card-art">
+              <svg viewBox="0 0 200 110" width="100%" height="85" class="card-art-svg" aria-hidden="true">
+                <rect width="200" height="110" rx="12" fill="#FEF7E6" />
+                <path d="M50 80 C50 60, 65 55, 75 70 C85 80, 80 90, 80 90 Z" fill="#B5482A" stroke="#2A1F1A" stroke-width="2" />
+                <ellipse cx="120" cy="75" rx="18" ry="14" fill="#B5482A" stroke="#2A1F1A" stroke-width="2" />
+                <path d="M150 80 L180 80 L175 65 L155 65 Z" fill="#E3A82B" stroke="#2A1F1A" stroke-width="2" />
+              </svg>
+            </div>
+            <div class="way-card-content">
+              <div class="way-badge-row">
+                <span class="way-pill pill-palash">भूमिका 03</span>
+                <span class="gender-pill">केवल महिलाएं</span>
+              </div>
+              <h3 class="way-name" data-i18n="way_3_title">विक्रेता बनें (Seller)</h3>
+              <p class="way-text" data-i18n="way_3_desc">
+                हस्तनिर्मित सोहराई कला, आभूषण, बांस शिल्प या सिलाई के उत्पाद सूचीबद्ध करें। भुगतान केवल बिक्री के बाद: ७०% कारीगर दीदी का, ३०% साझा मंच का।
+              </p>
+              <a href="#section-seller" class="btn btn-outline btn-full">
+                <span data-i18n="way_3_btn">विक्रेता का पूरा विवरण देखें</span> ↓
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 4: Customer / Buyer -->
+          <article class="way-card way-buyer">
+            <div class="way-card-art">
+              <svg viewBox="0 0 200 110" width="100%" height="85" class="card-art-svg" aria-hidden="true">
+                <rect width="200" height="110" rx="12" fill="#F4EAE2" />
+                <rect x="75" y="38" width="50" height="42" rx="5" fill="#FFF8EB" stroke="#B5482A" stroke-width="2" />
+                <path d="M100 38 L100 80 M75 58 L125 58" stroke="#E4762B" stroke-width="2.5" />
+                <circle cx="145" cy="48" r="12" fill="#2F5D3A" />
+                <path d="M145 53 C145 53, 141 49, 141 46 C141 43, 143 42, 145 44 C147 42, 149 43, 149 46 C149 49, 145 53, 145 53 Z" fill="#FFF8EB" />
+              </svg>
+            </div>
+            <div class="way-card-content">
+              <div class="way-badge-row">
+                <span class="way-pill pill-turmeric">भूमिका 04</span>
+                <span class="all-india-pill" data-i18n="all_india_tag">भारत भर के सभी लोगों हेतु (All Gender)</span>
+              </div>
+              <h3 class="way-name" data-i18n="way_4_title">खरीदार बनें (Customer / Buyer)</h3>
+              <p class="way-text" data-i18n="way_4_desc">
+                पूरे भारत से कोई भी महिला या पुरुष बिना सदस्यता के सीधे प्रामाणिक झारखंडी हस्तशिल्प खरीद सकते हैं। दीदियों की सुरक्षा हेतु सीधा संपर्क बंद रहता है।
+              </p>
+              <a href="#section-customer" class="btn btn-outline btn-full">
+                <span data-i18n="way_4_btn">हाट व खरीदार विवरण देखें</span> ↓
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 5: Delivery Partner -->
+          <article class="way-card way-delivery">
+            <div class="way-card-art">
+              <svg viewBox="0 0 200 110" width="100%" height="85" class="card-art-svg" aria-hidden="true">
+                <rect width="200" height="110" rx="12" fill="#EAF2EC" />
+                <circle cx="65" cy="78" r="16" fill="none" stroke="#2A1F1A" stroke-width="2.5" />
+                <circle cx="145" cy="78" r="16" fill="none" stroke="#2A1F1A" stroke-width="2.5" />
+                <path d="M65 78 L95 78 L115 58 L85 58 Z" stroke="#2A1F1A" stroke-width="2.5" fill="none" />
+                <rect x="52" y="48" width="24" height="18" rx="3" fill="#B5482A" stroke="#2A1F1A" stroke-width="1.5" />
+              </svg>
+            </div>
+            <div class="way-card-content">
+              <div class="way-badge-row">
+                <span class="way-pill pill-sal">भूमिका 05</span>
+                <span class="gender-pill">केवल महिलाएं</span>
+              </div>
+              <h3 class="way-name" data-i18n="way_5_title">डिलीवरी साथी (Delivery Partner)</h3>
+              <p class="way-text" data-i18n="way_5_desc">
+                उन महिलाओं के लिए कमाई का स्वाभिमानी अवसर जिनके पास समय और स्वतंत्रता है। स्थानीय स्तर पर विक्रेता से हब तक सुरक्षित, दिन के समय डिलीवरी।
+              </p>
+              <a href="#section-delivery" class="btn btn-outline btn-full">
+                <span data-i18n="way_5_btn">डिलीवरी साथी का विवरण देखें</span> ↓
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 6: Join a Sangi Hub -->
+          <article class="way-card way-hub">
+            <div class="way-card-art">
+              <svg viewBox="0 0 200 110" width="100%" height="85" class="card-art-svg" aria-hidden="true">
+                <rect width="200" height="110" rx="12" fill="#FDF2E9" />
+                <path d="M40 45 L100 20 L160 45 Z" fill="#B5482A" stroke="#2A1F1A" stroke-width="2" />
+                <rect x="50" y="45" width="100" height="40" fill="#FFF8EB" stroke="#2A1F1A" stroke-width="1.8" />
+                <circle cx="75" cy="65" r="5" fill="#E3A82B" />
+                <circle cx="100" cy="65" r="5" fill="#2F5D3A" />
+                <circle cx="125" cy="65" r="5" fill="#E4762B" />
+              </svg>
+            </div>
+            <div class="way-card-content">
+              <div class="way-badge-row">
+                <span class="way-pill pill-terracotta">भूमिका 06</span>
+                <span class="gender-pill">केवल महिलाएं</span>
+              </div>
+              <h3 class="way-name" data-i18n="way_6_title">संगी हब से जुड़ें (Sangi Hub)</h3>
+              <p class="way-text" data-i18n="way_6_desc">
+                हर 15 दिन में 3–4 घंटे की प्रत्यक्ष संगी हब कार्यशाला। शिक्षिका से आमने-सामने मार्गदर्शन, किट संग्रह, सामग्री खरीद और समस्या समाधान।
+              </p>
+              <a href="#section-sangi-hub" class="btn btn-outline btn-full">
+                <span data-i18n="way_6_btn">संगी हब कार्यशाला विवरण देखें</span> ↓
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="sohrai-border-strip" aria-hidden="true"></div>
+
+    <!-- 3. TEACHER SECTION (Detailed 5-step verification, duties, outreach, fair pay) -->
+    <section class="section detailed-section teacher-section" id="section-teacher" aria-labelledby="teacher-detail-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker" data-i18n="sec_teacher_kicker">भूमिका ०१ • शिक्षिका (Teacher)</span>
+          <h2 id="teacher-detail-title" class="section-title" data-i18n="sec_teacher_title">शिक्षिका सत्यापन और कार्य प्रणाली</h2>
+          <p class="section-subtitle" data-i18n="sec_teacher_subtitle">
+            झारखंड की कुशल दीदियों को सम्मानजनक शिक्षण मंच। 5-चरणीय पारदर्शी सत्यापन के बाद आप मंच शिक्षिका बनती हैं:
+          </p>
+        </div>
+
+        <!-- 5-Step Verification Stepper -->
+        <div class="stepper-box">
+          <h3 class="stepper-heading" data-i18n="teach_step_heading">५-चरणीय सत्यापन यात्रा (5-Step Verification)</h3>
+          <ol class="stepper-5-list">
+            <li class="step-5-item">
+              <span class="s5-num">1</span>
+              <div class="s5-body">
+                <h4 data-i18n="tstep_1_title">पंजीकरण (Registration)</h4>
+                <p data-i18n="tstep_1_desc">अपना नाम, जिला और सिखाए जाने वाले हुनर का सरल विवरण भरें।</p>
+              </div>
+            </li>
+            <li class="step-5-item">
+              <span class="s5-num">2</span>
+              <div class="s5-body">
+                <h4 data-i18n="tstep_2_title">पोर्टफोलियो व अनुभव (Portfolio & Experience)</h4>
+                <p data-i18n="tstep_2_desc">काम के फोटो/वीडियो साझा करें। <em>(विकल्प: पोर्टफोलियो न होने पर लाइव या प्रत्यक्ष डेमो द्वारा सत्यापन)</em>।</p>
+              </div>
+            </li>
+            <li class="step-5-item">
+              <span class="s5-num">3</span>
+              <div class="s5-body">
+                <h4 data-i18n="tstep_3_title">डेमो (Short Teaching Demo)</h4>
+                <p data-i18n="tstep_3_desc">एक छोटी सी प्रक्रिया (जैसे सुई में धागा डालना या सोहराई की पहली लकीर खींचना) बोलकर समझाएं।</p>
+              </div>
+            </li>
+            <li class="step-5-item">
+              <span class="s5-num">4</span>
+              <div class="s5-body">
+                <h4 data-i18n="tstep_4_title">मंच कौशल परख (Platform Skill Test)</h4>
+                <p data-i18n="tstep_4_desc">सिखाने के धैर्य, भाषा की सरलता और मंच नियमों की बुनियादी परख।</p>
+              </div>
+            </li>
+            <li class="step-5-item">
+              <span class="s5-num">5</span>
+              <div class="s5-body">
+                <h4 data-i18n="tstep_5_title">स्वीकृति (Approval as Platform Teacher)</h4>
+                <p data-i18n="tstep_5_desc">मंच शिक्षिका के रूप में चयन। बैच शुरू करने का अधिकार।</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <!-- What a Teacher Does (4 Key Pillars) -->
+        <div class="grid-2 teacher-duties-grid">
+          <!-- Duty 1: Daily Classes -->
+          <div class="folk-card duty-card">
+            <div class="card-icon-bubble bubble-terracotta">⏱️</div>
+            <h4 class="card-title" data-i18n="tduty_1_title">प्रतिदिन अधिकतम २ घंटे की क्लास</h4>
+            <p class="card-desc" data-i18n="tduty_1_desc">
+              शिक्षिका प्रतिदिन अधिकतम 2 घंटे तक क्लास लेती हैं—या तो मंच पर लाइव क्लास, या फिर रिकॉर्डेड वीडियो पाठ अपलोड करके।
+            </p>
+            <div class="safe-note-mini">
+              <span>🛡️</span>
+              <span data-i18n="tduty_safe_note">लाइव क्लास में विद्यार्थी सवाल पूछ सकती हैं; साथ ही मंच का सुरक्षित चैट/डाउट बॉक्स उपलब्ध रहता है। फोन नंबर कभी साझा नहीं किए जाते।</span>
+            </div>
+          </div>
+
+          <!-- Duty 2: Sangi Hub Workshop Teacher (Optional) -->
+          <div class="folk-card duty-card">
+            <div class="card-icon-bubble bubble-sal">🛖</div>
+            <h4 class="card-title" data-i18n="tduty_2_title">संगी हब शिक्षिका (वैकल्पिक / Optional)</h4>
+            <p class="card-desc" data-i18n="tduty_2_desc">
+              जो शिक्षिकाएं यात्रा कर सकती हैं, वे अपने स्थानीय क्षेत्र या जहां सबसे अधिक विद्यार्थी हों, वहां जाकर हर 15 दिन में एक बार 3–4 घंटे की इन-पर्सन संगी हब कार्यशाला आयोजित करती हैं और ऑफलाइन मार्गदर्शन देती हैं।
+            </p>
+          </div>
+
+          <!-- Duty 3: Awareness & Outreach -->
+          <div class="folk-card duty-card">
+            <div class="card-icon-bubble bubble-palash">📣</div>
+            <h4 class="card-title" data-i18n="tduty_3_title">जागरूकता व संपर्क (Outreach)</h4>
+            <p class="card-desc" data-i18n="tduty_3_desc">
+              शिक्षिकाएं आसपास के गांवों/टोलों में जाकर बेटियों और परिवारों से बात करती हैं और उन्हें जुड़ने के लिए प्रेरित करती हैं। वे वेबसाइट पर रिपोर्ट दर्ज करती हैं।
+            </p>
+            <div class="safe-note-mini alert-incentive">
+              <span>📌</span>
+              <span data-i18n="tduty_outreach_rule">फर्जी रिपोर्ट रोकने के लिए प्रोत्साहन राशि केवल सत्यापित भुगतान वाले दाखिलों (Verified Paid Enrolments) पर ही देय होगी।</span>
+            </div>
+          </div>
+
+          <!-- Duty 4: Fair Pay Principle -->
+          <div class="folk-card duty-card fair-pay-card">
+            <div class="card-icon-bubble bubble-turmeric">⚖️</div>
+            <h4 class="card-title" data-i18n="tduty_4_title">समान व निष्पक्ष मानदेय सिद्धांत (Fair Pay Principle)</h4>
+            <p class="card-desc" data-i18n="tduty_4_desc">
+              मानदेय आपके अनुभव, सिखाए गए घंटों, कोर्स पूरा करने वाले विद्यार्थियों और उनकी प्रतिक्रिया (फीडबैक) पर आधारित होगा—इस बात पर नहीं कि आप कौन सा शिल्प सिखाती हैं। सोहराई, पेंटिंग, सिलाई, बांस शिल्प और आभूषण सभी समान रूप से आदरणीय हैं।
+            </p>
+            <div class="fee-pending-tag" data-i18n="fair_pay_pending">राशि: पायलट परीक्षण के दौरान तय की जाएगी (To be decided in pilot)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="sohrai-border-strip" aria-hidden="true"></div>
+
+    <!-- 4. STUDENT SECTION (8-step journey, sample course card, offline-only workshop path) -->
+    <section class="section detailed-section student-section" id="section-student" aria-labelledby="student-detail-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker" data-i18n="sec_student_kicker">भूमिका ०२ • विद्यार्थी (Student) — केवल बेटियां/महिलाएं</span>
+          <h2 id="student-detail-title" class="section-title" data-i18n="sec_student_title">विद्यार्थी सीखने की ८-चरणीय यात्रा</h2>
+          <p class="section-subtitle" data-i18n="sec_student_subtitle">
+            सीखने से लेकर प्रमाण पत्र पाने तक का स्पष्ट, सुरक्षित और सहयोगपूर्ण सफर:
+          </p>
+        </div>
+
+        <!-- 8-Step Student Journey Grid -->
+        <div class="student-journey-grid">
+          <!-- Step 1 -->
+          <div class="journey-tile">
+            <span class="j-step-num">1</span>
+            <div class="j-icon">🌐</div>
+            <h4 data-i18n="s_step_1_title">रुचि चुनें</h4>
+            <p data-i18n="s_step_1_desc">वेबसाइट खोलें और अपनी पसंद का हुनर चुनें (उदा. पेंटिंग → सोहराई खंड)।</p>
+          </div>
+          <!-- Step 2 -->
+          <div class="journey-tile highlight-demo">
+            <span class="j-step-num">2</span>
+            <div class="j-icon">▶️</div>
+            <h4 data-i18n="s_step_2_title">मुफ्त डेमो देखें</h4>
+            <p data-i18n="s_step_2_desc">शुल्क देने से पहले संतुष्टि के लिए एक मुफ्त डेमो क्लास देखकर समझें।</p>
+          </div>
+          <!-- Step 3 -->
+          <div class="journey-tile">
+            <span class="j-step-num">3</span>
+            <div class="j-icon">📝</div>
+            <h4 data-i18n="s_step_3_title">पंजीकरण व शुल्क</h4>
+            <p data-i18n="s_step_3_desc">पंजीकरण करें और प्रस्तावित नाममात्र कोर्स शुल्क का भुगतान करें।</p>
+          </div>
+          <!-- Step 4 -->
+          <div class="journey-tile">
+            <span class="j-step-num">4</span>
+            <div class="j-icon">📋</div>
+            <h4 data-i18n="s_step_4_title">मूल्य सूची (Price List)</h4>
+            <p data-i18n="s_step_4_desc">देखें कि क्या-क्या शामिल है: क्लास, वीडियो, किट खर्च और कोर्स की समय-सीमा (उदा. 3 माह सोहराई)। किट बाजार से सस्ती, वैकल्पिक परंतु सशुल्क है।</p>
+          </div>
+          <!-- Step 5 -->
+          <div class="journey-tile">
+            <span class="j-step-num">5</span>
+            <div class="j-icon">📹</div>
+            <h4 data-i18n="s_step_5_title">दैनिक सीख व उपस्थिति</h4>
+            <p data-i18n="s_step_5_desc">रोजाना लाइव क्लास या रिकॉर्डेड वीडियो से सीखें। ऑनलाइन क्लास में उपस्थिति (Attendance) दर्ज होगी।</p>
+          </div>
+          <!-- Step 6 -->
+          <div class="journey-tile">
+            <span class="j-step-num">6</span>
+            <div class="j-icon">📦</div>
+            <h4 data-i18n="s_step_6_title">संगी हब से किट संग्रह</h4>
+            <p data-i18n="s_step_6_desc">पंजीकरण के समय बुक की गई किट नजदीकी संगी हब कार्यशाला में स्वयं लें (घर डिलीवरी नहीं)। पहला हफ्ता किट बिना भी शुरू हो जाता है।</p>
+          </div>
+          <!-- Step 7 -->
+          <div class="journey-tile">
+            <span class="j-step-num">7</span>
+            <div class="j-icon">📜</div>
+            <h4 data-i18n="s_step_7_title">कोर्स पूर्णता प्रमाण पत्र</h4>
+            <p data-i18n="s_step_7_desc">उपस्थिति + अभ्यास कार्य + मूल्यांकन पूरा करने पर कोर्स-पूर्णता प्रमाण पत्र (यह सरकारी डिग्री नहीं है)।</p>
+          </div>
+          <!-- Step 8 -->
+          <div class="journey-tile">
+            <span class="j-step-num">8</span>
+            <div class="j-icon">🔁</div>
+            <h4 data-i18n="s_step_8_title">अगले कोर्स में प्रवेश</h4>
+            <p data-i18n="s_step_8_desc">अगला नया हुनर सीखने के लिए वही सरल प्रक्रिया, नया कोर्स शुल्क लागू होगा।</p>
+          </div>
+        </div>
+
+        <!-- Sample Course Card Component -->
+        <div class="sample-course-card-wrap">
+          <div class="sample-course-card">
+            <div class="course-badge" data-i18n="sample_course_badge">नमूना कोर्स • पायलट तैयारी</div>
+            <div class="course-header-row">
+              <h3 class="course-title" data-i18n="sample_course_title">सोहराई भित्ति-चित्रकला (Sohrai Painting)</h3>
+              <span class="course-duration" data-i18n="sample_course_duration">अवधि: ३ माह (3 Months)</span>
+            </div>
+            <p class="course-summary" data-i18n="sample_course_desc">
+              पारंपरिक मिट्टी-दीवार अंकन, प्राकृतिक रंगों का निर्माण, ब्रश व कंघी का उपयोग, पशु-पक्षी व वृक्ष आकृतियों का अभ्यास।
+            </p>
+            <div class="course-meta-tags">
+              <span class="c-tag">📹 रिकॉर्डेड + लाइव क्लास</span>
+              <span class="c-tag">📦 वैकल्पिक किट मूल्य सूची में</span>
+              <span class="c-tag proposed-tag">शुल्क: प्रस्तावित (~₹100/माह पायलट में)</span>
+            </div>
+            <div class="course-actions">
+              <button type="button" class="btn btn-secondary" onclick="alert('पायलट के तहत डेमो क्लास का वीडियो जल्द उपलब्ध होगा।')">
+                <span class="btn-icon">▶️</span>
+                <span data-i18n="btn_watch_demo">मुफ्त डेमो देखें (Free Demo)</span>
+              </button>
+              <a href="#pilot-form" class="btn btn-outline" onclick="selectRoleInForm('student')">
+                <span data-i18n="btn_enroll_interest">दाखिले की रुचि बताएं</span> →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Offline-Only Student Path (For girls without smartphones/internet) -->
+        <div class="offline-student-box">
+          <div class="offline-header">
+            <span class="offline-pill" data-i18n="offline_pill">केवल ऑफलाइन विद्यार्थी मार्ग (Offline-Only Path)</span>
+            <h3 class="offline-title" data-i18n="offline_title">जो बेटियां ऑनलाइन क्लास नहीं कर सकतीं, उनके लिए:</h3>
+          </div>
+          <div class="offline-grid">
+            <div class="offline-point">
+              <span class="opt-num">1</span>
+              <div>
+                <strong data-i18n="off_p1_head">कार्यशाला हेतु एक बार पंजीकरण:</strong>
+                <p data-i18n="off_p1_body">ऑनलाइन या सीधे संगी हब कार्यशाला के दिन वहां उपस्थित होकर पंजीकरण करें।</p>
+              </div>
+            </div>
+            <div class="offline-point">
+              <span class="opt-num">2</span>
+              <div>
+                <strong data-i18n="off_p2_head">कम प्रस्तावित शुल्क:</strong>
+                <p data-i18n="off_p2_body">ये केवल ऑफलाइन सीखती हैं, इसलिए इनका शुल्क ऑनलाइन विद्यार्थियों से कम प्रस्तावित है।</p>
+              </div>
+            </div>
+            <div class="offline-point">
+              <span class="opt-num">3</span>
+              <div>
+                <strong data-i18n="off_p3_head">मार्गदर्शन व समस्या समाधान (शुरु से पूरी सीख नहीं):</strong>
+                <p data-i18n="off_p3_body">
+                  <strong>महत्वपूर्ण:</strong> कार्यशाला में आपको मार्गदर्शन और शंका समाधान मिलता है, शून्य से पूरी सिलाई/पेंटिंग नहीं सिखाई जाती।
+                </p>
+              </div>
+            </div>
+            <div class="offline-point">
+              <span class="opt-num">4</span>
+              <div>
+                <strong data-i18n="off_p4_head">सामग्री व किट खरीद की सुविधा:</strong>
+                <p data-i18n="off_p4_body">कार्यशाला में आकर कोई भी बहन सामग्री खरीद सकती है और किट ले सकती है। किट की घर डिलीवरी नहीं होती।</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sample Craft-Themed Workshop Calendar -->
+          <div class="workshop-calendar-component">
+            <div class="cal-title" data-i18n="cal_title">शिल्प-वार कार्यशाला चक्र (Sample Workshop Calendar):</div>
+            <div class="cal-grid">
+              <div class="cal-card">
+                <span class="cal-theme">चक्र ०१: सोहराई व चित्रकला</span>
+                <span class="cal-note" data-i18n="cal_sample_tag">नमूना / प्रस्तावित शेड्यूल</span>
+                <p>केवल चित्रकला की छात्राएं भाग लेंगी।</p>
+              </div>
+              <div class="cal-card">
+                <span class="cal-theme">चक्र ०२: सिलाई व कढ़ाई</span>
+                <span class="cal-note" data-i18n="cal_sample_tag">नमूना / प्रस्तावित शेड्यूल</span>
+                <p>सुजनी, कांथा व सिलाई मार्गदर्शन।</p>
+              </div>
+              <div class="cal-card">
+                <span class="cal-theme">चक्र ०३: बांस व बेत शिल्प</span>
+                <span class="cal-note" data-i18n="cal_sample_tag">नमूना / प्रस्तावित शेड्यूल</span>
+                <p>बुनाई उपकरण व टोकरी तकनीक।</p>
+              </div>
+              <div class="cal-card">
+                <span class="cal-theme">चक्र ०४: हस्तनिर्मित आभूषण</span>
+                <span class="cal-note" data-i18n="cal_sample_tag">नमूना / प्रस्तावित शेड्यूल</span>
+                <p>टेराकोटा मनके व धागा संयोजन।</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="sohrai-border-strip" aria-hidden="true"></div>
+
+    <!-- 5. SANGI HUB SECTION (In-person workshop, 15 days, 3-4 hrs) -->
+    <section class="section detailed-section hub-detail-section" id="section-sangi-hub" aria-labelledby="hub-detail-heading">
+      <div class="container">
+        <div class="hub-wrapper">
+          <div class="section-header text-center">
+            <span class="section-kicker" data-i18n="hub_kicker">ऑनलाइन और ज़मीन का अटूट जोड़</span>
+            <h2 id="hub-detail-heading" class="section-title" data-i18n="hub_title">संगी हब (Sangi Hub): गांव-टोले की अपनी चौपाल</h2>
+            <p class="section-subtitle" data-i18n="hub_subtitle">
+              हर 15 दिन में 3–4 घंटे की प्रत्यक्ष ‘संगी हब कार्यशाला’। आमने-सामने अभ्यास, मार्गदर्शन और सहयोग।
+            </p>
+          </div>
+
+          <div class="hub-flow-strip">
+            <div class="flow-pill">
+              <span class="flow-icon">1️⃣</span>
+              <span class="flow-word" data-i18n="hub_flow_1">सीखें (LEARN)</span>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-pill">
+              <span class="flow-icon">2️⃣</span>
+              <span class="flow-word" data-i18n="hub_flow_2">अभ्यास करें (PRACTISE)</span>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-pill">
+              <span class="flow-icon">3️⃣</span>
+              <span class="flow-word" data-i18n="hub_flow_3">जुड़ें (CONNECT)</span>
+            </div>
+          </div>
+
+          <div class="hub-grid">
+            <div class="hub-details-card">
+              <h3 class="hub-card-title" data-i18n="hub_features_title">संगी हब कार्यशाला में क्या होगा?</h3>
+              <ul class="hub-features-list">
+                <li>
+                  <span class="hub-point-icon">🗓️</span>
+                  <div>
+                    <strong data-i18n="hub_f1_head">हर १५ दिन में ३–४ घंटे की कार्यशाला:</strong>
+                    <span data-i18n="hub_f1_body">नियमित अंतराल पर अभ्यास सत्र जहां दीदियां मिलकर नया हुनर आजमाएंगी और समस्याएं सुलझाएंगी।</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="hub-point-icon">👩‍🏫</span>
+                  <div>
+                    <strong data-i18n="hub_f2_head">संगी हब शिक्षिका द्वारा संचालन:</strong>
+                    <span data-i18n="hub_f2_body">सत्यापित स्थानीय महिला प्रशिक्षिका व्यक्तिगत मार्गदर्शन और तकनीक सुधार में मदद करेंगी।</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="hub-point-icon">📦</span>
+                  <div>
+                    <strong data-i18n="hub_f3_new_head">किट वितरण, सामग्री खरीद व ऑफलाइन पंजीयन:</strong>
+                    <span data-i18n="hub_f3_new_body">विद्यार्थी अपनी बुक की गई किट लेंगी, नई सामग्री खरीद सकेंगी और नई बहनें ऑफलाइन फॉर्म भर सकेंगी।</span>
+                  </div>
+                </li>
+                <li>
+                  <span class="hub-point-icon">📍</span>
+                  <div>
+                    <strong data-i18n="hub_f4_head">मांग व सुरक्षा के अनुसार स्थान:</strong>
+                    <span data-i18n="hub_f4_body">पंचायत भवन, आंगनबाड़ी या सुरक्षित सामुदायिक जगह, जहां पहुंचना हर बहन के लिए आसान हो।</span>
+                  </div>
+                </li>
+              </ul>
+
+              <!-- Hub member dual-role note -->
+              <div class="hub-dual-role-note">
+                <span>💡</span>
+                <span data-i18n="hub_dual_role_text">संगी हब की महिला सदस्य चाहें तो मंच पर विक्रेता (Seller) या डिलीवरी साथी (Delivery Partner) के रूप में भी कार्य कर सकती हैं।</span>
+              </div>
+            </div>
+
+            <!-- Illustrated Courtyard Visual -->
+            <div class="hub-visual-box">
+              <svg viewBox="0 0 380 280" width="100%" height="auto" class="hub-svg" aria-label="संगी हब की चौपाल कार्यशाला">
+                <rect width="380" height="280" rx="16" fill="#FBF3E4" stroke="#2F5D3A" stroke-width="2.5" />
+                <path d="M30 80 L190 35 L350 80 Z" fill="#B5482A" stroke="#2A1F1A" stroke-width="2" />
+                <path d="M30 80 L350 80" stroke="#E3A82B" stroke-width="3" />
+                <rect x="60" y="80" width="12" height="130" fill="#E3A82B" stroke="#2A1F1A" stroke-width="1.5" />
+                <rect x="184" y="80" width="12" height="130" fill="#E3A82B" stroke="#2A1F1A" stroke-width="1.5" />
+                <rect x="308" y="80" width="12" height="130" fill="#E3A82B" stroke="#2A1F1A" stroke-width="1.5" />
+                <!-- Veranda -->
+                <rect x="25" y="210" width="330" height="45" rx="6" fill="#E8D5B7" stroke="#2A1F1A" stroke-width="2" />
+                <!-- 3 Women in circle practicing craft -->
+                <circle cx="110" cy="165" r="9" fill="#E3A82B" stroke="#2A1F1A" stroke-width="1.5" />
+                <path d="M98 205 C98 180, 122 180, 122 205 Z" fill="#B5482A" stroke="#2A1F1A" stroke-width="2" />
+                <circle cx="190" cy="160" r="9" fill="#E3A82B" stroke="#2A1F1A" stroke-width="1.5" />
+                <path d="M178 205 C178 175, 202 175, 202 205 Z" fill="#2F5D3A" stroke="#2A1F1A" stroke-width="2" />
+                <circle cx="270" cy="165" r="9" fill="#E3A82B" stroke="#2A1F1A" stroke-width="1.5" />
+                <path d="M258 205 C258 180, 282 180, 282 205 Z" fill="#E4762B" stroke="#2A1F1A" stroke-width="2" />
+                <!-- Banner on top -->
+                <rect x="110" y="52" width="160" height="22" rx="4" fill="#FFF8EB" stroke="#2A1F1A" stroke-width="1.5" />
+                <text x="190" y="67" font-family="'Mukta', sans-serif" font-size="11" font-weight="700" fill="#2A1F1A" text-anchor="middle">संगी हब कार्यशाला • 15 दिवसीय</text>
+              </svg>
+              <div class="hub-visual-caption" data-i18n="hub_caption">
+                गाँव की चौपाल या सामुदायिक भवन में आमने-सामने सीखने का सौहार्दपूर्ण वातावरण
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="sohrai-border-strip" aria-hidden="true"></div>
+
+    <!-- 6. COMPETITIONS & SKILL SHOWCASE (New section "प्रतियोगिता") -->
+    <section class="section detailed-section competitions-section" id="section-competitions" aria-labelledby="comp-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker" data-i18n="comp_kicker">हुनर की पहचान व पुरस्कार</span>
+          <h2 id="comp-title" class="section-title" data-i18n="comp_title">समय-समय पर प्रतियोगिताएं (Competitions)</h2>
+          <p class="section-subtitle" data-i18n="comp_subtitle">
+            सीखने के बाद अपने उत्कृष्ट काम को प्रदर्शित करें। सबसे बेहतरीन कौशल और फिनिशिंग को मिलता है सम्मान:
+          </p>
+        </div>
+
+        <div class="grid-2 comp-cards-grid">
+          <!-- How Competitions Work -->
+          <div class="folk-card comp-card">
+            <div class="card-icon-bubble bubble-palash">🏆</div>
+            <h3 class="card-title" data-i18n="comp_rule_title">सत्यापित शिक्षिकाओं द्वारा निष्पक्ष मूल्यांकन</h3>
+            <p class="card-desc" data-i18n="comp_rule_desc">
+              विद्यार्थी अपने बनाए उत्पादों के साथ प्रतियोगिता में भाग लेती हैं। मूल्यांकन वरिष्ठ शिक्षिकाओं के पैनल द्वारा इन 4 मानदंडों पर होता है:
+            </p>
+            <div class="criteria-pill-row">
+              <span class="cr-pill">१. कारीगरी (Skill)</span>
+              <span class="cr-pill">२. फिनिशिंग (Finishing)</span>
+              <span class="cr-pill">३. रचनात्मकता (Creativity)</span>
+              <span class="cr-pill">४. मौलिकता (Originality)</span>
+            </div>
+          </div>
+
+          <!-- Two Separate Reward Boxes (Never Confused!) -->
+          <div class="rewards-dual-wrap">
+            <!-- Box A: Cash Prize -->
+            <div class="reward-box box-prize">
+              <div class="r-badge" data-i18n="r_badge_prize">बॉक्स १ • नकद पुरस्कार (Prize)</div>
+              <h4 class="r-title" data-i18n="r_prize_title">विजेता को नकद पुरस्कार</h4>
+              <p class="r-desc" data-i18n="r_prize_desc">
+                प्रतियोगिता जीतने वाली दीदी को नकद सम्मान राशि दी जाती है।
+              </p>
+              <div class="r-status-tag" data-i18n="r_prize_status">पुरस्कार राशि: पायलट में घोषित होगी (To be announced)</div>
+            </div>
+
+            <!-- Box B: Optional Product Purchase Payout -->
+            <div class="reward-box box-purchase">
+              <div class="r-badge" data-i18n="r_badge_purchase">बॉक्स २ • उत्पाद खरीद राशि (Separate Payout)</div>
+              <h4 class="r-title" data-i18n="r_purchase_title">विजेता उत्पाद की मंच द्वारा खरीद</h4>
+              <p class="r-desc" data-i18n="r_purchase_desc">
+                पुरस्कार से बिल्कुल अलग, मंच विजेता के उत्पाद को बिक्री हेतु उसकी लिखित सहमति और स्वामित्व स्पष्टता के साथ खरीद सकता है। इसका अलग से मूल्य चुकाया जाता है।
+              </p>
+              <div class="r-status-tag" data-i18n="r_purchase_status">विजेता दीदी की पूरी सहमति पर निर्भर</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="sohrai-border-strip" aria-hidden="true"></div>
+
+    <!-- 7. SELLER & SALES SECTION (7-step flow, 30% platform share, money-flow diagram) -->
+    <section class="section detailed-section seller-section" id="section-seller" aria-labelledby="seller-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker" data-i18n="sec_seller_kicker">भूमिका ०३ • विक्रेता (Seller) — केवल महिलाएं</span>
+          <h2 id="seller-title" class="section-title" data-i18n="sec_seller_title">विक्रेता यात्रा व पारदर्शी आय ढांचा</h2>
+          <p class="section-subtitle" data-i18n="sec_seller_subtitle">
+            कोई भी पंजीकृत महिला सदस्य विक्रेता बन सकती है। जब तक सामान बिकता नहीं, कोई शुल्क नहीं:
+          </p>
+        </div>
+
+        <!-- 7-Step Seller Flow -->
+        <div class="stepper-box">
+          <h3 class="stepper-heading" data-i18n="seller_flow_heading">७-चरणीय विक्रेता प्रक्रिया (Seller Flow)</h3>
+          <ol class="stepper-7-list">
+            <li>
+              <span class="s7-num">1</span>
+              <div>
+                <strong data-i18n="sf_1_head">सदस्य पंजीकरण:</strong>
+                <p data-i18n="sf_1_body">विद्यार्थी, शिक्षिका, संगी हब सदस्य या स्वतंत्र कारीगर के रूप में मंच सदस्य बनें।</p>
+              </div>
+            </li>
+            <li>
+              <span class="s7-num">2</span>
+              <div>
+                <strong data-i18n="sf_2_head">महिला सत्यापन:</strong>
+                <p data-i18n="sf_2_body">सरल पहचान जांच जिससे पुष्टि हो कि विक्रेता एक महिला सदस्य है (कोई संवेदनशील डेटा नहीं)।</p>
+              </div>
+            </li>
+            <li>
+              <span class="s7-num">3</span>
+              <div>
+                <strong data-i18n="sf_3_head">उत्पाद फोटो अपलोड:</strong>
+                <p data-i18n="sf_3_body">अपने हाथ से बने उत्पाद की 2–3 स्पष्ट तस्वीरें और विवरण अपलोड करें।</p>
+              </div>
+            </li>
+            <li>
+              <span class="s7-num">4</span>
+              <div>
+                <strong data-i18n="sf_4_head">गुणवत्ता जांच व मूल्य निर्धारण:</strong>
+                <p data-i18n="sf_4_body">मंच गुणवत्ता जांचकर अंतिम बिक्री मूल्य तय करता है जिसे विक्रेता देखकर स्वीकार करती है।</p>
+              </div>
+            </li>
+            <li>
+              <span class="s7-num">5</span>
+              <div>
+                <strong data-i18n="sf_5_head">डिजिटल हाट में प्रदर्शन:</strong>
+                <p data-i18n="sf_5_body">अनुमोदित उत्पाद देश भर के ग्राहकों को ऑनलाइन हाट में दिखने लगता है।</p>
+              </div>
+            </li>
+            <li class="highlight-step">
+              <span class="s7-num">6</span>
+              <div>
+                <strong data-i18n="sf_6_head">भुगतान केवल ग्राहक की खरीद के बाद:</strong>
+                <p data-i18n="sf_6_body">जब तक ग्राहक ऑर्डर नहीं करता, कोई भुगतान या लेनदेन नहीं होता।</p>
+              </div>
+            </li>
+            <li>
+              <span class="s7-num">7</span>
+              <div>
+                <strong data-i18n="sf_7_head">बिक्री उपरांत आय विभाजन:</strong>
+                <p data-i18n="sf_7_body">मंच का हिस्सा ३०% (प्रस्तावित) और बाकी ७०% राशि सीधे विक्रेता दीदी की कमाई।</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Clean Money-Flow Diagram -->
+        <div class="money-flow-card">
+          <h4 class="flow-chart-title" data-i18n="mflow_title">पारदर्शी राशि प्रवाह (Money-Flow Diagram)</h4>
+          <div class="flow-steps-diagram">
+            <div class="flow-node node-customer">
+              <div class="f-icon">🛒</div>
+              <div class="f-text" data-i18n="mflow_c">ग्राहक भुगतान करता है (100%)</div>
+            </div>
+            <div class="flow-split-arrow">➔</div>
+            <div class="flow-node node-platform">
+              <div class="f-icon">🌐</div>
+              <div class="f-text" data-i18n="mflow_p">मंच सेवा व संचालन (30%)</div>
+              <small data-i18n="mflow_tag">प्रस्तावित — परीक्षण के अधीन</small>
+            </div>
+            <div class="flow-plus">+</div>
+            <div class="flow-node node-seller">
+              <div class="f-icon">💰</div>
+              <div class="f-text" data-i18n="mflow_s">विक्रेता दीदी की कमाई (70%)</div>
+              <small data-i18n="mflow_stag">सीधा बैंक खाते में</small>
+            </div>
+          </div>
+          <div class="income-disclaimer-mini" data-i18n="income_disclaimer">
+            ⚖️ <strong>स्पष्ट नोट:</strong> आमदनी की कोई गारंटी नहीं दी जा सकती। सफलता उत्पाद की गुणवत्ता, बाजार मांग, सही मूल्य और ग्राहक के भरोसे पर निर्भर करती है।
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="sohrai-border-strip" aria-hidden="true"></div>
+
+    <!-- 8. CUSTOMER / SHOP SECTION (Open to all in India, filters, placeholder SVGs, delivery note) -->
+    <section class="section detailed-section customer-section" id="section-customer" aria-labelledby="customer-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker" data-i18n="sec_customer_kicker">भूमिका ०४ • खरीदार (Customer / Buyer)</span>
+          <h2 id="customer-title" class="section-title" data-i18n="sec_customer_title">डिजिटल हाट: प्रामाणिक झारखंडी हस्तशिल्प</h2>
+          <p class="section-subtitle" data-i18n="sec_customer_subtitle">
+            पूरे भारत से कोई भी व्यक्ति (महिला या पुरुष) बिना सदस्यता के खरीदारी कर सकता है। बिचौलियों के बिना सीधे महिला कारीगरों का समर्थन करें:
+          </p>
+        </div>
+
+        <div class="customer-rules-banner">
+          <div class="rule-chip">🇮🇳 <span data-i18n="c_rule_all">पूरे भारत से कोई भी खरीद सकता है</span></div>
+          <div class="rule-chip">🔒 <span data-i18n="c_rule_privacy">दीदियों की सुरक्षा: विक्रेता से सीधा संपर्क बंद</span></div>
+          <div class="rule-chip">🚚 <span data-i18n="c_rule_pan">पूरे भारत में डिलीवरी की योजना जारी है</span></div>
+        </div>
+
+        <!-- 6 Sample Product Cards (Illustrated SVGs, tagged Sample / Coming Soon) -->
+        <div class="grid-3 sample-products-grid">
+          <!-- Product 1 -->
+          <article class="sample-card">
+            <div class="sample-art-box">
+              <span class="sample-tag" data-i18n="sample_badge">नमूना / जल्द आ रहा है</span>
+              <svg viewBox="0 0 160 140" width="120" height="110" class="product-svg">
+                <circle cx="80" cy="70" r="55" fill="#FFF8EB" stroke="#B5482A" stroke-width="3" />
+                <circle cx="80" cy="70" r="45" fill="none" stroke="#2F5D3A" stroke-width="1.5" stroke-dasharray="3,3" />
+                <path d="M60 85 C62 70, 75 65, 90 75 L95 95 L80 110 L65 110 Z" fill="#B5482A" />
+                <circle cx="65" cy="64" r="5" fill="#B5482A" />
+                <circle cx="80" cy="40" r="6" fill="#E3A82B" />
+              </svg>
+            </div>
+            <div class="sample-info">
+              <span class="sample-cat">सोहराई कला</span>
+              <h4 class="sample-name">हस्तनिर्मित सोहराई वॉल प्लेट</h4>
+              <p class="sample-desc">पारंपरिक हिरण व पलास फूल का सोहराई भित्ति-अंकन।</p>
+              <div class="sample-footer">
+                <span class="sample-state">प्रस्तावित नमूना</span>
+                <span class="sample-origin">हजारीबाग शिल्प</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="sample-card">
+            <div class="sample-art-box">
+              <span class="sample-tag" data-i18n="sample_badge">नमूना / जल्द आ रहा है</span>
+              <svg viewBox="0 0 160 140" width="120" height="110" class="product-svg">
+                <rect width="160" height="140" rx="14" fill="#FDF2E9" />
+                <path d="M40 30 C60 110, 100 110, 120 30" stroke="#2A1F1A" stroke-width="2" fill="none" />
+                <circle cx="80" cy="90" r="12" fill="#B5482A" stroke="#2A1F1A" stroke-width="1.5" />
+                <circle cx="62" cy="75" r="8" fill="#E3A82B" />
+                <circle cx="98" cy="75" r="8" fill="#E3A82B" />
+              </svg>
+            </div>
+            <div class="sample-info">
+              <span class="sample-cat">हस्तनिर्मित आभूषण</span>
+              <h4 class="sample-name">टेराकोटा मनका कंठहार</h4>
+              <p class="sample-desc">पकी मिट्टी और प्राकृतिक रंगों से गढ़ा गया पारंपरिक हार।</p>
+              <div class="sample-footer">
+                <span class="sample-state">प्रस्तावित नमूना</span>
+                <span class="sample-origin">रांची शिल्प</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="sample-card">
+            <div class="sample-art-box">
+              <span class="sample-tag" data-i18n="sample_badge">नमूना / जल्द आ रहा है</span>
+              <svg viewBox="0 0 160 140" width="120" height="110" class="product-svg">
+                <rect width="160" height="140" rx="14" fill="#FEF7E6" />
+                <ellipse cx="80" cy="55" rx="45" ry="12" fill="#E3A82B" stroke="#2A1F1A" stroke-width="2" />
+                <path d="M35 55 L45 110 C55 120, 105 120, 115 110 L125 55 Z" fill="#F4D086" stroke="#2A1F1A" stroke-width="2" />
+              </svg>
+            </div>
+            <div class="sample-info">
+              <span class="sample-cat">बांस शिल्प</span>
+              <h4 class="sample-name">बारीक बुनाई बांस टोकरी</h4>
+              <p class="sample-desc">पारंपरिक टिकाऊ व मजबूत प्राकृतिक बांस कलाकृति।</p>
+              <div class="sample-footer">
+                <span class="sample-state">प्रस्तावित नमूना</span>
+                <span class="sample-origin">सिमडेगा शिल्प</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="sohrai-border-strip" aria-hidden="true"></div>
+
+    <!-- 9. DELIVERY PARTNER SECTION (Women only, first-mile/last-mile, daytime safety) -->
+    <section class="section detailed-section delivery-section" id="section-delivery" aria-labelledby="delivery-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker" data-i18n="sec_delivery_kicker">भूमिका ०५ • डिलीवरी साथी (Delivery Partner) — केवल महिलाएं</span>
+          <h2 id="delivery-title" class="section-title" data-i18n="sec_delivery_title">स्थानीय डिलीवरी साथी के रूप में स्वावलंबन</h2>
+          <p class="section-subtitle" data-i18n="sec_delivery_subtitle">
+            उन महिलाओं के लिए कमाई का स्वाभिमानी अवसर जिनके पास समय और स्वतंत्रता है।
+          </p>
+        </div>
+
+        <div class="grid-2 delivery-details-grid">
+          <div class="folk-card del-card">
+            <div class="card-icon-bubble bubble-sal">🚲</div>
+            <h3 class="card-title" data-i18n="del_flow_title">सत्यापन व भूमिका</h3>
+            <p class="card-desc" data-i18n="del_flow_desc">
+              पंजीकरण करें → मंच केवल महिला होने का सरल सत्यापन करता है → <strong>डिलीवरी साथी के रूप में स्वीकृति</strong> मिलती है। कोई भी छात्रा, शिक्षिका या विक्रेता बहन भी इस भूमिका को साथ में ले सकती है।
+            </p>
+            <div class="safe-note-mini">
+              <span>☀️</span>
+              <strong data-i18n="del_safety_note">सुरक्षा प्रथम: केवल दिन के समय, नजदीकी परिचित क्षेत्र में ही डिलीवरी।</strong>
+            </div>
+          </div>
+
+          <div class="folk-card del-card">
+            <div class="card-icon-bubble bubble-terracotta">📦</div>
+            <h3 class="card-title" data-i18n="del_work_title">डिलीवरी साथी का काम</h3>
+            <ul class="del-points-list">
+              <li>
+                <strong>फर्स्ट-माईल (First-mile):</strong> विक्रेता दीदी के घर से सामान लेकर स्थानीय संगी हब या पिकअप पॉइंट तक पहुंचाना।
+              </li>
+              <li>
+                <strong>लोकल लास्ट-माईल (Local Last-mile):</strong> नजदीकी कस्बे/पंचायत के स्थानीय ग्राहकों तक सीधे पार्सल पहुंचाना।
+              </li>
+              <li>
+                <strong>अखिल भारतीय कूरियर (Pan-India):</strong> दूर-दराज के ऑर्डरों के लिए कूरियर पार्टनर आगे ले जाएगा <em>(पायलट में तय किया जा रहा है)</em>।
+              </li>
+            </ul>
+            <div class="fee-pending-tag" data-i18n="del_fee_pending">प्रति-पार्सल कमाई: पायलट परीक्षण में तय की जाएगी</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="sohrai-border-strip" aria-hidden="true"></div>
+
+    <!-- 10. PROPOSED FEES & OPEN DECISIONS -->
+    <section class="section pricing-section" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="pricing-card-wrap">
+          <div class="section-header text-center">
+            <span class="section-kicker" data-i18n="price_kicker">पारदर्शी सोच</span>
+            <h2 id="pricing-title" class="section-title" data-i18n="price_title">प्रस्तावित शुल्क ढांचा — परीक्षण के अधीन</h2>
+            <p class="section-subtitle" data-i18n="price_subtitle">
+              मंच को स्वावलंबी बनाए रखने हेतु केवल बुनियादी खर्चों की योजना है। कोई छिपा शुल्क नहीं:
+            </p>
+          </div>
+
+          <div class="grid-4 pricing-grid">
+            <div class="fee-card">
+              <span class="fee-badge" data-i18n="fee_1_badge">नाममात्र पंजीकरण</span>
+              <div class="fee-amount">~₹10</div>
+              <h3 class="fee-title" data-i18n="fee_1_title">शिक्षिका / विद्यार्थी पंजीयन</h3>
+              <p class="fee-desc" data-i18n="fee_1_desc">गंभीर सहभागिता और बुनियादी प्रोफाइल सत्यापन खर्च।</p>
+            </div>
+
+            <div class="fee-card">
+              <span class="fee-badge" data-i18n="fee_2_badge">प्रोत्साहन प्रमाण पत्र</span>
+              <div class="fee-amount">~₹10–₹20</div>
+              <h3 class="fee-title" data-i18n="fee_2_title">कोर्स पूर्णता प्रमाण पत्र</h3>
+              <p class="fee-desc" data-i18n="fee_2_desc">संगी हब से प्रिंटेड प्रमाण पत्र प्राप्त करने का न्यूनतम खर्च।</p>
+            </div>
+
+            <div class="fee-card highlight-fee">
+              <span class="fee-badge" data-i18n="fee_3_badge">हाट व्यवस्था व सेवा</span>
+              <div class="fee-amount">30%</div>
+              <h3 class="fee-title" data-i18n="fee_3_title">मंच साझा शुल्क (बिक्री पर)</h3>
+              <p class="fee-desc" data-i18n="fee_3_desc">केवल सफल बिक्री पर। बाकी ७०% विक्रेता दीदी का।</p>
+            </div>
+
+            <div class="fee-card">
+              <span class="fee-badge" data-i18n="fee_4_badge">केवल ऑफलाइन विद्यार्थी</span>
+              <div class="fee-amount">कम शुल्क</div>
+              <h3 class="fee-title" data-i18n="fee_4_title">संगी हब कार्यशाला शुल्क</h3>
+              <p class="fee-desc" data-i18n="fee_4_desc">ऑनलाइन विद्यार्थियों की तुलना में कम बुनियादी शुल्क प्रस्तावित।</p>
+            </div>
+          </div>
+
+          <!-- Open Decisions Strip in Pilot Section -->
+          <div class="open-decisions-strip">
+            <div class="od-header">
+              <span class="od-icon">⚖️</span>
+              <strong data-i18n="od_title">पायलट में दीदियों के साथ तय किए जा रहे बिंदु (Open Decisions):</strong>
+            </div>
+            <div class="chips-row">
+              <span class="od-chip">१. अखिल भारतीय कूरियर पार्टनर (Pan-India Courier Partner)</span>
+              <span class="od-chip">२. किट पिकअप बनाम वैकल्पिक डिलीवरी</span>
+              <span class="od-chip">३. प्रति ऑर्डर डिलीवरी साथी प्रोत्साहन राशि</span>
+              <span class="od-chip">४. अंतिम शुल्क व ३०% मंच शेयर का परीक्षण</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="sohrai-border-strip" aria-hidden="true"></div>
+
+    <!-- 11. PILOT / HELP US BUILD THIS (Interest Form) -->
+    <section class="section pilot-section" id="pilot-form" aria-labelledby="pilot-title">
+      <div class="container">
+        <div class="pilot-layout">
+          <div class="pilot-intro">
+            <span class="section-kicker" data-i18n="pilot_kicker">पायलट योजना: साथ मिलकर बनाएं</span>
+            <h2 id="pilot-title" class="section-title" data-i18n="pilot_title">सुनें → परखें → सुधारें (Listen • Test • Improve)</h2>
+            <p class="pilot-lead" data-i18n="pilot_lead">
+              हम शुरुआत में 10–15 दीदियों से संवाद, एक छोटा पायलट क्षेत्र और एक प्रायोगिक संगी हब कार्यशाला से जांच कर रहे हैं:
+            </p>
+
+            <div class="pilot-steps-mini">
+              <div class="mini-step">
+                <span class="m-num">1</span>
+                <div>
+                  <strong>10–15 दीदियों से संवाद:</strong>
+                  <span>घर की परिस्थितियां, सीखने की इच्छा और फोन की आदतों को समझना।</span>
+                </div>
+              </div>
+              <div class="mini-step">
+                <span class="m-num">2</span>
+                <div>
+                  <strong>एक छोटा पायलट क्षेत्र:</strong>
+                  <span>झारखंड का एक विशेष ब्लॉक चुनकर केवल 2–3 प्राथमिक हुनर से शुरुआत।</span>
+                </div>
+              </div>
+              <div class="mini-step">
+                <span class="m-num">3</span>
+                <div>
+                  <strong>एक व्यावहारिक संगी हब कार्यशाला:</strong>
+                  <span>प्रत्यक्ष परीक्षण करके पंजीकरण, किट वितरण व अभ्यास को सरल बनाना।</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="privacy-note">
+              <span class="lock-icon">🔒</span>
+              <span data-i18n="form_privacy_line">हम आपके इस विवरण का उपयोग केवल पायलट योजना के संपर्क व सुधार हेतु करेंगे।</span>
+            </div>
+          </div>
+
+          <!-- Interest Form Card -->
+          <div class="pilot-form-card">
+            <div class="form-card-header">
+              <h3 class="form-heading" data-i18n="form_heading">अपनी रुचि साझा करें</h3>
+              <p class="form-sub" data-i18n="form_sub">आप क्या सीखना, सिखाना या बेचना चाहती हैं? हमें बताएं:</p>
+            </div>
+
+            <form id="interestForm" novalidate aria-label="पायलट अभिरुचि फॉर्म">
+              <!-- Name -->
+              <div class="form-group">
+                <label for="userName" class="form-label">
+                  <span data-i18n="form_lbl_name">आपका पूरा नाम</span>
+                  <span class="required-star">*</span>
+                </label>
+                <input type="text" id="userName" name="userName" class="form-input" placeholder="उदा. अनीता देवी / Anita Devi" required minlength="2" autocomplete="name">
+                <span class="field-error" id="nameError" aria-live="polite"></span>
+              </div>
+
+              <!-- Phone -->
+              <div class="form-group">
+                <label for="userPhone" class="form-label">
+                  <span data-i18n="form_lbl_phone">मोबाइल नंबर (WhatsApp या कॉलिंग)</span>
+                  <span class="required-star">*</span>
+                </label>
+                <input type="tel" id="userPhone" name="userPhone" class="form-input" placeholder="10 अंकों का मोबाइल नंबर" required pattern="[0-9]{10}" autocomplete="tel">
+                <span class="field-error" id="phoneError" aria-live="polite"></span>
+              </div>
+
+              <!-- District of Jharkhand (All 24 Districts) -->
+              <div class="form-group">
+                <label for="userDistrict" class="form-label">
+                  <span data-i18n="form_lbl_district">झारखंड का आपका ज़िला</span>
+                  <span class="required-star">*</span>
+                </label>
+                <select id="userDistrict" name="userDistrict" class="form-select" required>
+                  <option value="" disabled selected data-i18n="form_select_district">-- अपना ज़िला चुनें --</option>
+                  <option value="Bokaro">बोकारो (Bokaro)</option>
+                  <option value="Chatra">चतरा (Chatra)</option>
+                  <option value="Deoghar">देवघर (Deoghar)</option>
+                  <option value="Dhanbad">धनबाद (Dhanbad)</option>
+                  <option value="Dumka">दुमका (Dumka)</option>
+                  <option value="East Singhbhum">पूर्वी सिंहभूम (East Singhbhum)</option>
+                  <option value="Garhwa">गढ़वा (Garhwa)</option>
+                  <option value="Giridih">गिरिडीह (Giridih)</option>
+                  <option value="Godda">गोड्डा (Godda)</option>
+                  <option value="Gumla">गुमला (Gumla)</option>
+                  <option value="Hazaribagh">हजारीबाग (Hazaribagh)</option>
+                  <option value="Jamtara">जामताड़ा (Jamtara)</option>
+                  <option value="Khunti">खूंटी (Khunti)</option>
+                  <option value="Koderma">कोडरमा (Koderma)</option>
+                  <option value="Latehar">लातेहार (Latehar)</option>
+                  <option value="Lohardaga">लोहरदगा (Lohardaga)</option>
+                  <option value="Pakur">पाकुड़ (Pakur)</option>
+                  <option value="Palamu">पलामू (Palamu)</option>
+                  <option value="Ramgarh">रामगढ़ (Ramgarh)</option>
+                  <option value="Ranchi">रांची (Ranchi)</option>
+                  <option value="Sahibganj">साहिबगंज (Sahibganj)</option>
+                  <option value="Saraikela Kharsawan">सरायकेला खरसावां (Saraikela Kharsawan)</option>
+                  <option value="Simdega">सिमडेगा (Simdega)</option>
+                  <option value="West Singhbhum">पश्चिमी सिंहभूम (West Singhbhum)</option>
+                </select>
+                <span class="field-error" id="districtError" aria-live="polite"></span>
+              </div>
+
+              <!-- Roles (6 Roles + 2 Special Preferences Checkboxes) -->
+              <div class="form-group">
+                <fieldset class="roles-fieldset">
+                  <legend class="form-label">
+                    <span data-i18n="form_lbl_roles">आप किस रूप में जुड़ना चाहती हैं? (एक या अधिक चुनें)</span>
+                    <span class="required-star">*</span>
+                  </legend>
+                  <div class="checkbox-grid">
+                    <label class="check-label">
+                      <input type="checkbox" name="roles" value="teacher" id="role-teacher">
+                      <span class="check-text" data-i18n="role_opt_teacher">शिक्षिका (Teacher)</span>
+                    </label>
+                    <label class="check-label">
+                      <input type="checkbox" name="roles" value="student" id="role-student">
+                      <span class="check-text" data-i18n="role_opt_student">विद्यार्थी (Student)</span>
+                    </label>
+                    <label class="check-label">
+                      <input type="checkbox" name="roles" value="seller" id="role-seller">
+                      <span class="check-text" data-i18n="role_opt_seller">विक्रेता (Seller)</span>
+                    </label>
+                    <label class="check-label">
+                      <input type="checkbox" name="roles" value="buyer" id="role-buyer">
+                      <span class="check-text" data-i18n="role_opt_buyer">खरीदार (Buyer)</span>
+                    </label>
+                    <label class="check-label">
+                      <input type="checkbox" name="roles" value="delivery" id="role-delivery">
+                      <span class="check-text" data-i18n="role_opt_delivery">डिलीवरी साथी (Delivery Partner)</span>
+                    </label>
+                    <label class="check-label">
+                      <input type="checkbox" name="roles" value="hub" id="role-hub">
+                      <span class="check-text" data-i18n="role_opt_hub">संगी हब सदस्य (Sangi Hub)</span>
+                    </label>
+                    <!-- Special Preferences -->
+                    <label class="check-label check-special">
+                      <input type="checkbox" name="roles" value="travel_hub" id="role-travel-hub">
+                      <span class="check-text" data-i18n="role_opt_travel">संगी हब कार्यशाला में सिखाने हेतु (यात्रा के लिए तैयार)</span>
+                    </label>
+                    <label class="check-label check-special">
+                      <input type="checkbox" name="roles" value="outreach" id="role-outreach">
+                      <span class="check-text" data-i18n="role_opt_outreach">अपने क्षेत्र में जागरूकता व संपर्क (Outreach) में रुचि</span>
+                    </label>
+                  </div>
+                  <span class="field-error" id="rolesError" aria-live="polite"></span>
+                </fieldset>
+              </div>
+
+              <!-- Preferred Language -->
+              <div class="form-group">
+                <label for="userLang" class="form-label" data-i18n="form_lbl_lang">पसंदीदा बातचीत की भाषा</label>
+                <select id="userLang" name="userLang" class="form-select">
+                  <option value="Hindi" selected>हिन्दी (Hindi)</option>
+                  <option value="Khortha">खोरठा (Khortha)</option>
+                  <option value="Other">अन्य क्षेत्रीय भाषा (Other Local Language)</option>
+                </select>
+              </div>
+
+              <!-- Skill Text -->
+              <div class="form-group">
+                <label for="userSkill" class="form-label" data-i18n="form_lbl_skill">वह हुनर जो आप सीखना या सिखाना चाहती हैं</label>
+                <textarea id="userSkill" name="userSkill" class="form-textarea" rows="3" placeholder="उदा. मुझे सिलाई आती है, या मैं सोहराई पेंटिंग सीखना चाहती हूं..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-large btn-full" id="submitBtn">
+                <span class="btn-icon">🌾</span>
+                <span class="btn-text" data-i18n="form_btn_submit">पायलट में रुचि दर्ज करें</span>
+              </button>
+            </form>
+
+            <!-- Thank You Box -->
+            <div class="thank-you-card" id="thankYouMessage" style="display: none;" role="status">
+              <div class="thank-icon">🌸</div>
+              <h4 class="thank-title" data-i18n="thank_title">जोहार दीदी! आपकी जानकारी दर्ज हो गई है।</h4>
+              <p class="thank-desc" data-i18n="thank_desc">
+                आपकी रुचि को स्थानीय स्तर पर सुरक्षित सहेज लिया गया है। जैसे ही आपके जिले/ब्लॉक में पहली कार्यशाला तय होगी, हम आपसे संपर्क करेंगे।
+              </p>
+              <div class="saved-preview-box" id="savedDataPreview"></div>
+              <button type="button" class="btn btn-secondary btn-full" id="btnResetForm" data-i18n="thank_btn_again">
+                दूसरी प्रविष्टि भरें
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="sohrai-border-strip" aria-hidden="true"></div>
+
+    <!-- 12. FAQ (Updated with all 6 required questions) -->
+    <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker" data-i18n="faq_kicker">स्पष्टता और भरोसा</span>
+          <h2 id="faq-title" class="section-title" data-i18n="faq_title">अक्सर पूछे जाने वाले सवाल (FAQ)</h2>
+          <p class="section-subtitle" data-i18n="faq_subtitle">
+            आपके मन में उठने वाले स्वाभाविक प्रश्नों के स्पष्ट और ईमानदार उत्तर:
+          </p>
+        </div>
+
+        <div class="faq-accordion-wrap">
+          <!-- FAQ 1: Can men join? -->
+          <div class="accordion-item">
+            <button type="button" class="accordion-header" aria-expanded="false" aria-controls="faq-ans-1" id="faq-btn-1">
+              <span class="accordion-title" data-i18n="faq_q1">क्या पुरुष भी इस मंच से जुड़ सकते हैं?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-1" role="region" aria-labelledby="faq-btn-1" hidden>
+              <p data-i18n="faq_a1">
+                सीखना, सिखाना, बेचना और डिलीवरी केवल महिलाओं और बेटियों के लिए सुरक्षित और आरक्षित है। परंतु, खरीदार (ग्राहक) के रूप में भारत भर से कोई भी पुरुष या महिला हस्तनिर्मित उत्पाद खरीद सकते हैं।
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 2: Payment only after product sells? -->
+          <div class="accordion-item">
+            <button type="button" class="accordion-header" aria-expanded="false" aria-controls="faq-ans-2" id="faq-btn-2">
+              <span class="accordion-title" data-i18n="faq_q2">क्या उत्पाद बिकने के बाद ही भुगतान होता है?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-2" role="region" aria-labelledby="faq-btn-2" hidden>
+              <p data-i18n="faq_a2">
+                हाँ, बिल्कुल! जब तक कोई ग्राहक आपका सामान नहीं खरीदता, तब तक कोई लेनदेन या अग्रिम भुगतान नहीं होता। बिक्री होने के बाद ३०% मंच का प्रस्तावित शुल्क कटकर शेष ७०% सीधे विक्रेता दीदी को मिलता है।
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 3: Can't attend online? -->
+          <div class="accordion-item">
+            <button type="button" class="accordion-header" aria-expanded="false" aria-controls="faq-ans-3" id="faq-btn-3">
+              <span class="accordion-title" data-i18n="faq_q3">मैं ऑनलाइन क्लास नहीं कर सकती। मैं क्या करूँ?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-3" role="region" aria-labelledby="faq-btn-3" hidden>
+              <p data-i18n="faq_a3">
+                आप कम प्रस्तावित शुल्क पर नजदीकी ‘संगी हब कार्यशाला’ में ऑफलाइन भाग ले सकती हैं। याद रखें, कार्यशाला में अभ्यास, शंका समाधान और मार्गदर्शन मिलता है; शून्य से पूरी क्लास नहीं होती।
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 4: Will kit be delivered? -->
+          <div class="accordion-item">
+            <button type="button" class="accordion-header" aria-expanded="false" aria-controls="faq-ans-4" id="faq-btn-4">
+              <span class="accordion-title" data-i18n="faq_q4">क्या मेरी लर्निंग किट घर पर डिलीवर होगी?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-4" role="region" aria-labelledby="faq-btn-4" hidden>
+              <p data-i18n="faq_a4">
+                नहीं, लर्निंग किट की घर पर डिलीवरी नहीं होती। आप पंजीकरण के समय चुने गए नजदीकी संगी हब कार्यशाला में आकर स्वयं अपनी किट प्राप्त करती हैं। पहला हफ्ता किट बिना भी शुरू हो जाता है।
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 5: Multiple roles? -->
+          <div class="accordion-item">
+            <button type="button" class="accordion-header" aria-expanded="false" aria-controls="faq-ans-5" id="faq-btn-5">
+              <span class="accordion-title" data-i18n="faq_q5">क्या मैं एक से अधिक भूमिकाएं (Multiple Roles) ले सकती हूँ?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-5" role="region" aria-labelledby="faq-btn-5" hidden>
+              <p data-i18n="faq_a5">
+                हाँ! एक ही खाते से आप विद्यार्थी भी बन सकती हैं, शिक्षिका भी, अपना सामान भी बेच सकती हैं और डिलीवरी साथी या संगी हब सदस्य भी बन सकती हैं।
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 6: Government recognized? -->
+          <div class="accordion-item">
+            <button type="button" class="accordion-header" aria-expanded="false" aria-controls="faq-ans-6" id="faq-btn-6">
+              <span class="accordion-title" data-i18n="faq_q6">क्या मिलने वाला प्रमाण पत्र सरकारी मान्यता प्राप्त है?</span>
+              <span class="accordion-arrow" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-body" id="faq-ans-6" role="region" aria-labelledby="faq-btn-6" hidden>
+              <p data-i18n="faq_a6">
+                <strong>नहीं।</strong> यह केवल 'कोर्स पूर्णता प्रमाण पत्र' (Course Completion Certificate) है जो यह दर्शाता है कि आपने सभी कार्य और अभ्यास पूरे किए हैं। यह कोई सरकारी डिग्री या डिप्लोमा नहीं है।
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="site-footer">
+    <div class="sohrai-border-strip" aria-hidden="true"></div>
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo-row">
+            <svg viewBox="0 0 54 54" width="38" height="38" class="logo-svg" aria-hidden="true">
+              <circle cx="27" cy="27" r="25" fill="#FFF8EB" stroke="#B5482A" stroke-width="2.5" />
+              <path d="M15 36 C15 28, 20 25, 23 27 C25 28, 25 33, 22 37 Z" fill="#B5482A" />
+              <path d="M39 36 C39 28, 34 25, 31 27 C29 28, 29 33, 32 37 Z" fill="#2F5D3A" />
+              <path d="M22 31 C25 29, 29 29, 32 31" stroke="#E3A82B" stroke-width="2.5" fill="none" />
+              <path d="M27 24 C24 21, 25 18, 27 16 C29 18, 30 21, 27 24 Z" fill="#E4762B" />
+            </svg>
+            <span class="footer-brand-title" data-i18n="brand_title">सखी सीखो, सखी सिखाओ</span>
+          </div>
+          <p class="footer-mission" data-i18n="footer_mission">
+            झारखंड की ग्रामीण व कस्बाई महिलाओं के हुनर को सहेजने, सिखाने और स्वावलंबन से जोड़ने का एक निष्कपट सामुदायिक प्रयास।
+          </p>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title" data-i18n="footer_quick_links">त्वरित संपर्क व लिंक</h4>
+          <ul class="footer-list">
+            <li><a href="#ways-to-join" data-i18n="nav_ways">६ भूमिकाएं</a></li>
+            <li><a href="#section-sangi-hub" data-i18n="nav_hub">संगी हब कार्यशाला</a></li>
+            <li><a href="#pricing" data-i18n="nav_pricing">प्रस्तावित शुल्क ढांचा</a></li>
+            <li><a href="#pilot-form" data-i18n="nav_pilot">पायलट अभिरुचि पत्र</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact-col">
+          <h4 class="footer-col-title" data-i18n="footer_contact_title">संपर्क व संवाद</h4>
+          <p class="footer-contact-text" data-i18n="footer_contact_coming">
+            <strong>सीधा संपर्क:</strong> पायलट लॉन्च के समय जारी किया जाएगा (Coming soon)
+          </p>
+          <div class="footer-location-chip">
+            <span>📍</span>
+            <span>रांची, हजारीबाग एवं पायलट जिले, झारखंड</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="proposal-disclaimer" data-i18n="footer_disclaimer">
+          ⚠️ <strong>अवधारणा प्रस्ताव:</strong> यह वेबसाइट एक प्रस्तावित अवधारणा एवं पायलट अध्ययन हेतु तैयार की गई है। यह कोई सरकार द्वारा संचालित योजना या व्यावसायिक संस्था नहीं है।
+        </div>
+        <p class="copyright-line">
+          © <span id="currentYear">2026</span> <span data-i18n="brand_title">सखी सीखो, सखी सिखाओ</span>. <span data-i18n="footer_copy">सभी अधिकार सामुदायिक हित में सुरक्षित।</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" class="back-to-top" id="backToTopBtn" aria-label="ऊपर जाएं (Back to top)" title="ऊपर जाएं">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
