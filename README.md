@@ -54,5 +54,5 @@ No build step or dependencies required:
 
 - **Folk Motifs**: Original Sohrai & Khovar wall painting line-work, Sal leaves, Palash flame flowers, deer, and peacock motifs drawn in pure inline SVG.
 - **Earth & Festival Palette**: Mud-wall cream (`#F6ECD9`), Terracotta red-ochre (`#B5482A`), Palash flame orange (`#E4762B`), Haldi yellow (`#E3A82B`), and Sal green (`#2F5D3A`).
-- **Original Logo**: Two stylized women's figures passing a Palash flower and spun thread within a circular folk-art ring.
+- **Original Logo**: Two stylized women's figures passing a Palash flower and spun thread within a circular folk-art ring .
 
